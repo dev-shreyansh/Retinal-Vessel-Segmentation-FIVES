@@ -1,2 +1,5 @@
-# Retinal-Vessel-Segmentation-FIVES
-Retinal blood vessel segmentation using U-Net + ResNet34 on the FIVES dataset · PyTorch
+# 🔬 Retinal Blood Vessel Segmentation
+U-Net with ResNet-34 encoder trained on the FIVES fundus dataset.
+- **Framework:** PyTorch + Segmentation Models PyTorch
+- **Loss:** Dice + Tversky + Focal (combined)
+- **Targets:** Dice ≥ 0.82, AUC ≥ 0.98
